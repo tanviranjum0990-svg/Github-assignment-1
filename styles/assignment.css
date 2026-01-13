@@ -114,16 +114,21 @@ p {
 
 /*section-3 css */
 .section-3{
+  background-color: beige;
+  padding-top: 50px;
   max-width: 1600px;
+  height: 700px;
   margin: 0 auto;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 .section-box{
   background-color: antiquewhite;
   max-width: 1360px;
+  height:500px;
   margin: 0 auto;
- border: 3px solid black;
  display:flex;
  flex-wrap: wrap;
  justify-content:space-between;
@@ -142,22 +147,51 @@ p {
 
 }
 .b-2{
+  margin: 0 auto;
    display:flex;
    justify-content:space-around;
-   padding-left:150px;
+   padding-left:50px;
 }
 
 .b-2 .b2{
+  text-align: center;
+  margin: 0 auto;
   width:300px;
-  padding:20px;
-  margin:0 auto;
+  height: 300px;
+  padding:20px 20px;
   align-items: center;
+  box-shadow: 10px 8px 10px gray;
 
+}
+.b-2 .b2 img{
+  display: block;
+  margin: auto;
+}
+.b-2 .b2 img, h1, p{
+  padding:10px;
+  text-align: center;
 }
 /*making icon*/
 .icon{
-  width:50px;
-  height: 50px;
-  background-color:coral;
+  margin: auto 15px;
+  width:80px;
+  height: 80px;
+  background-color:red;
   border-radius:50% ;
+  align-items:center;
+  display: block;
 }
+.last-section{
+  display: flex;
+  justify-content: center;
+  max-width: 1360px;
+  height:152px;
+  margin: 0 auto;
+  margin-left: 100px;
+  align-items: center;
+  text-align: center;
+  
+} 
+
+
+
