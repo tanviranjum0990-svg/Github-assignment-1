@@ -57,62 +57,104 @@
 }
 
 /* Hero Section */
-.hero {
-  max-width:1600px;
-  margin: 0 auto;
+        #banner{
+            max-width: 1600px;
+            height:700px;
+           background:url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+            margin:0 auto;
+            color: white;
+        }
+        .banner-main{
+            margin: 0 auto;
+            margin:100px 100px 150px 110px;
+           max-width: 1360px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap: wrap;
+        }
+
+    
+        
+           .btn{
+            
+            margin:20px 0px 10px 150px;
+            padding: 20px;
+            
+           background-color: #ffffff;
+                color: #4CAF7A;             
+               font-size: 18px;
+             font-weight: 600;
+
+           border: none;
+         border-radius: 900px;     
+
+           display: inline-flex;
+           justify-content: center;
+          align-items: center;
+                gap: 10px;
+
+           cursor: pointer;
+     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+       transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .dot{
+            width: 10px;
+  height: 10px;
+  background-color: #4CAF7A;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(76, 175, 122, 0.25); 
+        }
+
+        .banner-main-b2-btn2{
+            background: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 12px 20px;
+
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
-  background:url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
-  border:2px solid black;
-}
-.hero-content {
-    max-width: 1360px;
-    margin: 0 auto;
-    height: 378px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  flex-wrap: wrap;
-}
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.
+  gap: 10px;
 
-/*badge {
-  display: inline-block;
-  background: rgba(61, 220, 151, 0.15);
-  color: #3ddc97;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 14px;
-  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+        }
+
+       
+      
+    .banner-main-b2{
+                  margin: 20px;
+                  padding:25px;
+                 display: flex;
+                 justify-content:space-around;
+                 padding-right:70px;
+}
+
+.banner-main-b2-btn{
+    
+            background-color: #4CAF7A;        
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  display: inline-flex;
   align-items: center;
-}*/
+  gap: 10px;
 
-h1 {
-  font-size: 48px;
-  line-height: 1.2;
-  margin-bottom: 20px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-.highlight {
-  color: #3ddc97;
-}
 
-p {
-  font-size: 18px;
-  line-height: 1.6;
-  opacity: 0.9;
-  margin-bottom: 30px;
-}
-
-.hero-buttons a {
-  margin-right: 15px;
-}
-
-/*section-3 css */
 .section-3{
   background-color: beige;
   padding-top: 50px;
@@ -143,9 +185,6 @@ p {
   align-items: center;
 }
 
-.into-b1{
-
-}
 .b-2{
   margin: 0 auto;
    display:flex;
@@ -193,5 +232,70 @@ p {
   
 } 
 
+#section-4{
+background-color:lightgrey;
+  padding-top: 50px;
+  max-width: 1600px;
+  height: 700px;
+  margin: 0 auto;
 
+}
+.s4-main{
+  max-width: 1360px;
+  height:500px;
+  margin: 0 auto;
+ display:flex;
+ gap: 30px;
+ justify-content:space-between;
+ align-items: center;
+}
+
+
+.main-box-1{
+  max-width: 600px;
+ height: 600px;
+ padding-top: 80px;
+}
+.main-box-2{
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.main-box-2 ul{
+  text-decoration: none;
+  list-style:none;
+}
+
+.footer-{
+  background-color:darkslateblue;
+  padding-top: 50px;
+  max-width: 1600px;
+  margin: 0 auto;
+
+
+}
+.div-f{
+  max-width: 1360px;
+  height:300px;
+  margin: 0 auto;
+ display: flex;
+ justify-content:space-between;
+ padding-top: 80px;
+}
+
+.div-f-2 ul {
+  display: flex;
+  gap:15px;
+  list-style: none;
+  margin: 0px;
+  padding:0px;
+}
+
+.div-f-2 ul,li{
+  font-size: 30px;
+  padding-right: 20px;
+}
 
